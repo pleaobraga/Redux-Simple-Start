@@ -1,8 +1,16 @@
 import React, {Component} from 'react';
 import ReactDom from 'react-dom';
 
+import SearchBar from './components/search_bar';
+
+const API_Key = "AIzaSyAn-WgYVoZr3F2sYWBh1JLlLincfaxFRkk";
+
 const App = () => {
-    return  <div>Hi</div>;
+    return  (
+        <div>
+            <SearchBar />
+        </div>
+    );
 }
 
 // class App extends Component{
