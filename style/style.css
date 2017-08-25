@@ -5,6 +5,9 @@
 
 .search-bar input {
     width: 75%;
+    border: 2px solid rgba(121, 114, 114, 0.64);;
+    border-radius: 37px;
+    padding-left: 24px;
 }
 
 .video-item img {
