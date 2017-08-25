@@ -28,6 +28,10 @@
     display: inline-block !important;
 }
 
+.list-group-item:hover{
+    background: rgba(187, 179, 179, 0.43)
+}
+
 .video-list {
     float: left;
 }
